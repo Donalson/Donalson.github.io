@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script type="text/javascript"></script>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="estilo.css">
+    <meta charset="utf-8">
+    <title>Asistente de Compra</title>
+    <link rel="shortcut icon" href="Logo.PNG">
+  </head>
+  <body>
+    <div class="navbar-fixed"><!-- Div que contiene nav que contiene el banner superior de la pagina, cuenta con una imagen y tres ancore que redireccionan -->
+      <nav>
+        <div class="nav-wrapper black" style="border-bottom: 4px white solid">
+          <a href="index.html" class="brand-logo" style="margin-left: 10%;font-family: 'Lacquer', sans-serif; font-size:200%; width: 35%"><img class="responsive-img" src="Logo.PNG" alt="" height="8%" width="8%">DJ's HardWare</a>
+           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down" style="margin-right: 10%">
+              <li class="Boton"><a class="HB" href="index.html"><span><i class="material-icons left">home</i>Inicio</span></a></li>
+              <li class="Boton"><a class="HB" href="https://wa.me/50230599403"><span><i class="material-icons left">help</i>¿Te Ayudo?</span></a></li>
+              <li class="Boton"><a class="HB" href="#Contacto"><span><i class="material-icons left">phone</i>Contacto</span></a></li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo"><!-- Menu de hamburguesa cuando se haga pequena la pantalla -->
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="https://wa.me/50230599403">¿Te Ayudo?</a></li>
+      <li><a href="#Contacto">Contacto</a></li>
+    </ul>
+    <br>
+    <div class="container" style="background:#424242">
+      <form class="" method="post">
+        <p style="font-size: 32px; font-weight:bold;color:white;text-align:center;">Tus Datos de Contacto</p>
+        <p style="font-size:16px; color:white;text-align:center">Revisa tu información para agilizar la comunicación</p>
+        <div class="row center">
+          <div class="input-field col s12" style="color:white;text-align:center"><!-- Campo de Correo con icono -->
+            <i class="material-icons prefix">email</i>
+            <input type="email" name="" value="" class="validate" placeholder="Ej: ejemplo123@correo.com" required>
+            <label>Correo</label>
+            <span class="helper-text" data-error="Incorrecto, Revise la Información" data-success="Correcto"></span>
+          </div>
+          <div class="input-field col s12" style="color:white;text-align:center"><!-- Campo de nombre con icono -->
+            <i class="material-icons prefix">account_circle</i>
+            <input type="text" name="" value="" class="validate" placeholder="Ej: Pacho Villa" required>
+            <label>Nombre Completo</label>
+            <span class="helper-text" data-error="Incorrecto, Revise la Información" data-success="Correcto"></span>
+          </div>
+          <div class="input-field col s12" style="color:white;text-align:center"><!-- Campo de telefono con icono -->
+            <i class="material-icons prefix">phone</i>
+            <input type="tel" name="" value="" class="validate" placeholder="Ej: 1234 5678" required>
+            <label>Teléfono de Contacto</label>
+            <span class="helper-text" data-error="Incorrecto, Revise la Información" data-success="Correcto"></span>
+          </div>
+          <div class="input-field col s12" style="color:white;text-align:center"><!-- Campo de lugar con icono -->
+            <i class="material-icons prefix">phone</i>
+            <input type="text" name="" value="" class="validate" placeholder="Ej: Esquipulas" required>
+            <label>¿De dónde nos contactas?</label>
+            <span class="helper-text" data-error="Incorrecto, Revise la Información" data-success="Correcto"></span>
+          </div>
+          <div class="input-field col s12 center">
+            <button type="submit" name="button" class="btn btn-primary black">Finalizar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <footer class="page-footer" style="background:black">
+        <br><br><br>
+         <div id="Contacto" class="container">
+           <div class="row">
+             <div class="col l6 s12">
+               <h5 class="white-text">DJ'S <img src="Logo.PNG" alt="" height="6%" width="6%"> HardWare</h5>
+               <p class="grey-text text-lighten-4" style="font-size:16px;font-weight:bold">Soporte y Contacto</p>
+               <p><i class="material-icons">phone</i>Llámanos al: 3059-9403</p>
+               <p><i class="material-icons">email</i>Escríbenos a: dajl1517@gmail.com</p>
+             </div>
+             <div class="col l4 offset-l2 s12">
+               <h5 class="white-text">Comunidad</h5>
+               <ul>
+                 <li><a class="grey-text text-lighten-3" href="https://fb.com/Donalson.JavierLandaverry">Facebook</a></li>
+                 <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UCKNAbCqNAknJHvcnE6fZq6w/">Youtube</a></li>
+                 <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/donalson1517/?hl=es-la">Instagram</a></li>
+                 <li><a class="grey-text text-lighten-3" href="https://Twitter.com/Donalson1517">Twitter</a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+         <div class="footer-copyright">
+           <div class="container">
+           © 2019 Copyright Text
+           </div>
+         </div>
+       </footer>
+</html>
